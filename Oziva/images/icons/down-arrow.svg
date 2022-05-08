@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="accordian_down_arrow_icon" transform="translate(14649 871)">
+    <g id="Rectangle_2390" data-name="Rectangle 2390" transform="translate(-14649 -871)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="down_arrow" d="M8.849,0V9.47H6.919V1.786H0V0H8.849Z" transform="translate(-14630.523 -860.514) rotate(135)"/>
+  </g>
+</svg>

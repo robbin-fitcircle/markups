@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
+  <g id="minus_icon" transform="translate(0 2)">
+    <rect id="bound" width="14" height="14" fill="none" opacity="0"/>
+    <text id="minus" transform="translate(5 11)" fill="#b3b3b3" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">-</tspan></text>
+  </g>
+</svg>

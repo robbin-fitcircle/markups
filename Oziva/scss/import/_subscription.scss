@@ -1,0 +1,106 @@
+.oziva-cart-body{
+    .oz-subscription-popup{
+        .oziva-mob-container{
+            background: $light-gray;
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+            .oziva-cart-content-area{
+                min-height: 100%;
+            }
+            .oziva-header {
+                .web-cart-head{
+                    &:before{
+                    border-top-color: $primaryGreen;
+                    }
+                    .head-navtab{
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        justify-content: space-between;
+                        .list-item{
+                            a, span{  
+                                display: block;
+                                background: $white;
+                                padding: 0 8px;
+                                font-size: 12px;
+                                letter-spacing: 0.01px;
+                                color: $primaryGreen;
+                                img{
+                                    float: left;
+                                    margin-right: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-icons-group{
+                padding: 0 16px;
+            }
+        }
+        &[data-ml-modal]:target{
+            bottom: 0;
+            top:0;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .oz-subscription-popup{
+        padding-bottom: 0;
+        .oziva-mob-container{
+            padding-bottom: 0;
+        }
+        .subscription-main{
+            padding: 0 !important;
+            .sticky-m-bottom{
+                padding: 8px;
+                background: $white;
+                .bg-secondaryDeepGreen{
+                    margin: 0 -8px;
+                }
+                .footer-dtl-mob{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 8px;
+                    .btn{
+                        max-width: 238px;
+                    }
+                }
+            }
+            .oz-accordion {
+                border: 0;
+                .tab{
+                    border:1px solid #E0E0E0;
+                    letter-spacing: 0;
+                    &:first-child{
+                        border-bottom: 0;
+                    }
+                }
+            }
+        }
+        .prod-sum-accordion{
+            .tab-label{
+                padding:16px 16px 12px;
+                font-size: 14px;
+                line-height: 24px;
+                color: $off-gray;
+                position: relative;
+                background: $light;
+                &::after{
+                left: 190px;
+                top: 16px;
+                position: absolute;
+                }
+            }
+            .tab .tab-content{
+                padding-left: 16px;
+                padding-right: 16px;
+                background: $light;
+            }
+        }
+    }
+}

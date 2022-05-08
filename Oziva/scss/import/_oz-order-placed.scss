@@ -1,0 +1,68 @@
+.oz_order_placed{
+    background-color: $border-gray;
+    .page-back{
+        background-color: $border-gray;
+        position: sticky;
+        padding: 16px 0 8px 0;
+        margin-bottom: 0;
+        z-index: 9;
+        top: 0;
+    }
+    .container{
+        width: 614px;
+        &.oz-order-header{
+            padding: 0;
+        }
+        &.oz-order-sec{
+            padding: 16px 8px;
+            margin-bottom: 16px;
+            .prod-tag{
+                position:absolute;
+                right: 0;
+                top: -13px;
+                border-radius: 2px;
+                background: $white;
+                &:before {
+                    content: "";
+                    width: 8px;
+                    height: 26px;
+                    background: #fff;
+                    position: absolute;
+                    left: -10px;
+                    top: 0;
+                }
+            }
+            &.oz-order-rate-sec{
+                padding-top: 8px;
+                padding-bottom: 8px;
+                .oz-order-rate{
+                    img{
+                        margin-left: 32px;
+                        &:first-child{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            &.oziva-thank-you{
+                background: transparent;
+            }
+            .track-btn-group{
+                display: flex;
+                justify-content:space-between;
+                &.text-right{
+                    justify-content:end;
+                }
+            }
+        }
+    }
+    .oz-order-sec-btn{
+        .btn{
+            background: transparent;
+            border-color: $off-light;
+            &:hover{
+                background: $primaryPahadiCitrus;
+            }
+        }
+    }
+}

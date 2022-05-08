@@ -1,0 +1,56 @@
+/* STARTED STYLING FOR ALL HEADER */
+.oziva-cart-body{
+    .oziva-header{
+        padding: 8px 15px 8px 8px;
+        background: $white;
+        position: sticky;
+        top: 0;
+        z-index: 11;
+        nav{
+            display: flex;
+            align-items: center;
+            & > *{
+                -ms-flex: 1;  /* IE 10 */  
+                flex: 1;
+                a.back-page{
+                    display: inline-block;
+                    float: left;
+                    img,
+                    object {
+                        display: block;
+                    }
+                }
+                h2{
+                    line-height: 24px;
+                    white-space: nowrap;
+                }
+            }
+        }
+        // WEB HEADER STYLING
+        .web-cart-head {
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+            max-width: 466px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            span {
+                display: inline-block;
+                padding: 0 25px;
+                background: $white;
+                font-weight: bold;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 50%;
+                border-top: 1px solid $black;
+                z-index: -1;
+            }
+        }
+    }
+}

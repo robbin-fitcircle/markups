@@ -1,0 +1,322 @@
+/* Modals
+----------------------------------------------*/
+
+[data-ml-modal] {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-overflow-scrolling: touch;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+[data-ml-modal]:target {
+  width: auto;
+  height: auto;
+  opacity: 1;
+}
+[data-ml-modal]:target .modal-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+[data-ml-modal] .modal-dialog {
+  border-radius: 4px;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12);
+  width: 90%;
+  max-width: 660px;
+  // max-height: 70%;
+  margin: 80px auto;
+  z-index: 2;
+}
+.modal-main-container {
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+.modal-dialog-lg {
+  max-width: 820px !important;
+}
+
+[data-ml-modal] .modal-dialog > h3 {
+  background-color: #eee;
+  border-bottom: 1px solid #b3b3b3;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0.8em 56px 0.8em 27px;
+}
+[data-ml-modal] .modal-content {
+  background: $white;
+  padding: 32px;
+  border-radius: 8px;
+  position: relative;
+}
+[data-ml-modal] .error-modal-content {
+  padding: 20px 10px;
+  background: $white;
+}
+[data-ml-modal] .modal-content-confirm {
+  background: $white;
+}
+[data-ml-modal] .modal-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #000;
+  border-radius: 50%;
+  height: 53px;
+  width: 53px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-family: monospace;
+}
+[data-ml-modal] .modal-close:hover {
+  color: #000;
+  cursor: pointer;
+}
+[data-ml-modal] p:first-child,
+[data-ml-modal] p:last-child {
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  [data-ml-modal] .modal-dialog {
+    // margin: auto;
+    max-width: 500px;
+  }
+}
+@media (max-width: 767px) {
+  [data-ml-modal] .modal-dialog {
+    margin: auto;
+    max-width: 316px;
+  }
+}
+.close-modal {
+  position: absolute;
+  top: -43px;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  background: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  border-radius: 50%;
+}
+/* End Modals ------------------------------*/
+
+#applied-offer {
+  img {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+.alret {
+  font-family: "armin_groteskregular";
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 6px;
+  padding: 8px 16px;
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 54px;
+  z-index: 9;
+  max-width: 350px;
+  margin: auto;
+}
+
+.oziva-offer-applied-modal {
+  .modal-dialog {
+    max-width: 316px;
+    h2 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+.oziva-offer-applied-modal-web {
+  .modal-dialog {
+    max-width: 100%;
+    h2 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+.oziva-offer-applied-modal-web {
+  .error-modal {
+    .modal-dialog {
+      max-width: 316px;
+      h2 {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+.error-modal-button {
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 15px 20px;
+  width: 100%;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #dedede;
+  color: #f04e23;
+  font-size: 16px;
+}
+.error-modal-text {
+  font-size: 15px;
+  color: #000;
+  line-height: 24px;
+}
+.d-inline-flex {
+  display: inline-flex;
+}
+.confirm-text > h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 17.5px;
+}
+.applied-coupon-code {
+  .modal-dialog {
+    max-width: 422px;
+    .modal-content {
+      padding: 16px;
+      position: relative;
+      .copy-coupon {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $primaryPahadiCitrus;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+.modal-with-head {
+  .modal-dialog {
+    max-width: 600px;
+  }
+  .modal-content {
+    padding: 0;
+    .modal-head {
+      background: $primaryGreenSG200;
+      padding: 8px 16px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.15px;
+      border-radius: 8px 8px 0 0;
+    }
+    .modal-content-inner {
+      max-height: 500px;
+      overflow: auto;
+      padding: 16px;
+      p {
+        margin-bottom: 8px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+.modal-content {
+  ul {
+    padding-left: 30px;
+    list-style: outside;
+    margin-bottom: 16px;
+  }
+}
+.footer-icon-popup {
+  .modal-content-inner {
+    font-size: 14px;
+    line-height: 16.9px;
+    letter-spacing: 0.15px;
+  }
+}
+
+#PurchaseOptions{
+  .modal-dialog {
+    max-width: 614px;
+    .modal-content-inner{
+      padding: 32px 64px;
+      .subscription-list{
+        padding: 8px 16px;
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 16px;
+        position: relative;
+        .OneTimePurchase{
+          width: 100%;
+        }
+        .price-dtetails{
+          width: auto;
+          white-space: nowrap;
+        }
+        &:hover, &.active{
+          background: $primaryGreenSG100;
+          border-color: $primaryGreen;
+        }
+        .oz-tag{
+          position: absolute;
+          top: -13px;
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  [data-ml-modal] {
+    bottom: -200vh;
+  }
+  [data-ml-modal]:target {
+    bottom: 16px;
+    top: auto;
+  }
+  #PurchaseOptions {
+    .modal-dialog {
+      .modal-content-inner {
+        padding: 16px;
+        .PurchaseOptions-dtl {
+          padding: 8px;
+          .f-13{
+            font-size: 12px;
+          }
+          .listing-2 {
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+}

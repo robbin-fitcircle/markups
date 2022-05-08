@@ -1,0 +1,102 @@
+/* BUTTON STYLES */
+.btn-link{
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: $primaryGreen;
+}
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 11.5px 22.5px;
+  border-width: 1px;
+  transition: all .15s linear;
+  display: inline-block;
+  &.btn-primary {
+    background: $primaryPahadiCitrus;
+    color: $white;
+    border-color: $primaryPahadiCitrus;
+    &:hover {
+      background: $primaryPahadiCitrus;
+    }
+    &:focus {
+      background: $primaryPahadiCitrus;
+    }
+  }
+  &.btn-secondary {
+    background: $primaryGreen;
+    color: $white;
+    border-color: $primaryGreen;
+    &:hover {
+      background: $primaryGreen;
+    }
+    &:focus {
+      background: $primaryGreen;
+    }
+  }
+
+
+  /* Start Outline Buttons */
+  &.btn-outline-primary {
+    background: $white;
+    color: $primaryPahadiCitrus;
+    border:1px solid $primaryPahadiCitrus;
+    &:hover {
+      background: $primaryPahadiCitrus;
+      color: $white;
+    }
+    &:focus {
+      background: $primaryPahadiCitrus;
+      color: $white;
+    }
+  }
+  &.btn-outline-secondary {
+    background: $white;
+    color: $primaryGreen;
+    border:1px solid $primaryGreen;
+    &:hover {
+      background: $primaryGreen;
+      color: $white;
+    }
+    &:focus {
+      background: $primaryGreen;
+      color: $white;
+    }
+  }
+  &.btn-lg{
+    font-size: 16px;
+    border-width: 2px;
+    border-radius: 6px;
+  }
+  &.btn-block{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+  /* End Outline Buttons */
+
+  .oz-tag{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01px;
+    color: $white;
+    background: $primaryGreen;
+    border-radius: 10px;
+    padding: 2px 8px;
+  }
+
+
+  @media only screen and (max-width: 768px){
+    .btn{
+      &.btn-lg{
+        border-width: 1px;
+        padding: 8px;
+      }
+    }
+  }

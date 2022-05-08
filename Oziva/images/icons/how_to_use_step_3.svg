@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60.501" viewBox="0 0 60 60.501">
+  <g id="step_3" data-name="step 3" transform="translate(-1131.619 -308.869)">
+    <g id="bound" transform="translate(1131.619 308.869)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="60" height="60" stroke="none"/>
+      <rect x="0.5" y="0.5" width="59" height="59" fill="none"/>
+    </g>
+    <g id="Group_905" data-name="Group 905" transform="translate(1151.24 329.586)">
+      <path id="Path_7665" data-name="Path 7665" d="M1154.1,403.407l3.192,36.3a1.886,1.886,0,0,0,1.888,1.721l12.906-.062a1.886,1.886,0,0,0,1.872-1.762l2.445-36.343a1.042,1.042,0,0,0-1.046-1.112l-20.224.118a1.043,1.043,0,0,0-1.033,1.14Z" transform="translate(-1154.094 -402.15)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_7666" data-name="Path 7666" d="M1160.87,478.655s3.164-3.258,10.971-.781,8.622-1,8.622-1" transform="translate(-1159.248 -458.96)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_906" data-name="Group 906" transform="translate(1152.863 347.505)">
+      <path id="Path_7667" data-name="Path 7667" d="M1160.934,479.4l1.505,17.129a1.886,1.886,0,0,0,1.888,1.721l12.906-.062a1.885,1.885,0,0,0,1.872-1.762l1.266-18.8.093-.739s-.815,3.474-8.622,1-10.971.781-10.971.781" transform="translate(-1160.87 -476.881)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <line id="Line_200" data-name="Line 200" x1="9.409" y2="38.415" transform="translate(1165.786 310.157)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_7668" data-name="Path 7668" d="M1202.357,366.462c-4.063,2.657-22.7.029-16.316-2.719" transform="translate(-26.14 -43.364)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_907" data-name="Group 907" transform="translate(1163.311 308.87)">
+      <path id="Path_7669" data-name="Path 7669" d="M1204.44,315.725" transform="translate(-1204.44 -315.725)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

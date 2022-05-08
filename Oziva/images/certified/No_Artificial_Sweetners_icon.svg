@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <g id="No_Artificial_Sweetners_icon" transform="translate(-25.299 0.5)">
+    <g id="bond" transform="translate(25.799 0.492)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="80" height="80" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_70" data-name="Ellipse 70" cx="40" cy="40" rx="40" ry="40" transform="translate(25.799)" fill="none" stroke="#005655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_99" data-name="Line 99" x2="23.439" y2="25.609" transform="translate(69.74 43.547)" fill="none" stroke="#005655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_100" data-name="Line 100" x2="20.298" y2="22.555" transform="translate(39.787 11.396)" fill="none" stroke="#005655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_439" data-name="Path 439" d="M1684.788,571.987a8.592,8.592,0,0,1-.176,4.127,4.384,4.384,0,0,1-4.77,3.132,5.239,5.239,0,0,1-4.056-4c-.705-4.4,1.43-7.8,3.979-11.262C1682.237,566.346,1684.115,568.839,1684.788,571.987Z" transform="translate(-1591.781 -529.012)" fill="none" stroke="#005655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_440" data-name="Path 440" d="M1626.325,525.283l-2.246,2.155,1.974,2.056-14.017,13.451-16.5,15.839.032.034a6.4,6.4,0,0,0,8.846,9.219l.033.034,16.374-15.713,14.147-13.577,1.974,2.056,2.245-2.155Z" transform="translate(-1550.658 -509.541)" fill="none" stroke="#005655" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

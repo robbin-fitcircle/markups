@@ -1,0 +1,74 @@
+@media only screen and (min-width: 768px) {
+    .oziva-cart-body{
+        .oziva-Offers-page{
+            max-width: 616px !important;
+            .cart-offers{
+                background: $white;
+                border-radius: 8px;
+                border: 1px solid $border-gray;
+                padding: 8px 0px 8px 8px;
+                margin-bottom: 16px;
+                h2{
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+            }
+            hr{
+                display: none;
+            }
+            .enter-coupon-input{
+                background: #fff;
+                padding: 8px 8px 8px 4px;
+                border-radius: 4px;
+                .offer-back{
+                    font-size: 16px;
+                    white-space: nowrap;
+                    line-height: 23px;
+                    flex: none;
+                    padding-right: 15px;
+                    a{
+                        color: $black;
+                        font-weight: 500;
+                    }
+                }
+                .offer-input-div{
+                    text-align: center;
+                    .font-control{
+                        // max-width: 230px;
+                        margin: 0 auto;
+                        &::placeholder{
+                            color: $off-light;
+                        }
+                    }
+                }
+                .btn.btn-primary{
+                    border-color: $light;
+                    &:hover{
+                        border-color: $primaryPahadiCitrus;
+                    }
+                }
+            }
+            .offer-wave{
+                position: fixed;
+                left: 0;
+                right: 0;
+                height: 50%;
+                bottom: 0;
+                z-index: -2;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .oziva-cart-body{
+        .oziva-Offers-page{
+            background: $white;
+            .enter-coupon-input{
+                padding: 0 8px 8px 0;
+            }
+        }
+    }
+    
+}

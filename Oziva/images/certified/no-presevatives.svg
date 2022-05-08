@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="No_presevatives" data-name="No presevatives" transform="translate(2.5 2.5)">
+    <g id="no_preservatives_icon">
+      <g id="bond" transform="translate(-2.5 -2.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="50" height="50" stroke="none"/>
+        <rect x="0.5" y="0.5" width="49" height="49" fill="none"/>
+      </g>
+      <ellipse id="Ellipse_72" data-name="Ellipse 72" cx="22.5" cy="22.5" rx="22.5" ry="22.5" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_103" data-name="Line 103" x2="9.049" y2="9.78" transform="translate(28.854 29.12)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_104" data-name="Line 104" x2="11.492" y2="12.389" transform="translate(7.87 6.41)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Group_541" data-name="Group 541" transform="translate(12.795 8.925)">
+        <path id="Path_421" data-name="Path 421" d="M1254.834,826.772l-6.577-13.951a5.23,5.23,0,0,1-.5-2.23v-6.375H1243.4v6.375a5.224,5.224,0,0,1-.5,2.23l-6.577,13.951a.929.929,0,0,0,.84,1.324h16.83A.929.929,0,0,0,1254.834,826.772Z" transform="translate(-1236.235 -800.947)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <rect id="Rectangle_261" data-name="Rectangle 261" width="7.776" height="3.269" rx="1.634" transform="translate(5.342)" fill="none" stroke="#006e5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

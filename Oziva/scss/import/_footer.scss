@@ -1,0 +1,70 @@
+.oziva-mob-footer{
+    display: none;
+    padding: 8px 16px;
+    position: sticky;
+    bottom: 0;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+    box-shadow: 0px -10px 20px #00000029;
+    .oziva-mob-footer-dtl{
+        width: 100%;
+        h3{
+            font-size: 18px;
+        }
+    }
+    .oziva-mob-footer-btn{
+        min-width: 164px;
+    }
+}
+.footer-icons{
+    padding: 64px 0;
+    justify-content: center;
+    column-gap: 64px;
+    text-align: center;
+    display: flex;
+    .footer-icons-col {
+        flex-grow: 1;
+        max-width: 110px;
+        text-align: center;
+        display: inline-block;
+        font-size: 13px;
+        a{
+            color: $black;
+            font-size: 14px;
+            line-height: 16.9px;
+            letter-spacing: 0.15px;
+            white-space: nowrap;
+            img{
+                max-width: 100%;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+    &:before, &::after{
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+    }
+}
+.footer-text-sec{
+    .container{
+        max-width: 665px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .oziva-cart-body .oziva-mob-container .oziva-cart-content-area .cart-footer {
+        position: relative;
+        .btn-div{
+            .info-text{
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: -28px;
+            }
+        }
+    }
+}
+

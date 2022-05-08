@@ -1,0 +1,197 @@
+.oz-accordion {
+  // General
+  input.accordion-tab {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  /* Accordion styles */
+  .tabs {
+    overflow: hidden;
+  }
+  .tab {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid $border-gray;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    &-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 23.5px 16px;
+      background: $white;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+      cursor: pointer;
+      /* Icon */
+      &::after {
+        content: "";
+        background: url(../images/icons/down-arrow.svg) no-repeat left top;
+        width: 24px;
+        height: 24px;
+        text-align: center;
+        transition: all 0.35s;
+      }
+    }
+    &-content {
+      max-height: 0;
+      padding: 0 1em;
+      background: white;
+      transition: all 0.35s;
+    }
+    &-close {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1em;
+      font-size: 0.75em;
+      background: $white;
+      cursor: pointer;
+      &:hover {
+        background: darken($white, 10%);
+      }
+    }
+    .tab-content {
+      transition: all 0.1s ease;
+      -webkit-transition: all 0.1s ease;
+      -moz-transition: all 0.1s ease;
+      height: 0;
+      overflow: hidden;
+      ol {
+        padding: 0 0 0 16px;
+        list-style: auto;
+        li {
+          margin-bottom: 32px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0.15px;
+          h4 {
+            margin-bottom: 8px;
+          }
+          p {
+            font-weight: 400;
+            line-height: 16.9px;
+            font-size: 14px;
+            letter-spacing: 0.15px;
+          }
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .product-info {
+        table {
+          width: 100%;
+          tr {
+            td {
+              padding: 16px;
+              border-top: 1px solid $border-gray;
+              border-right: 1px solid $border-gray;
+              line-height: 16.9px;
+              font-size: 14px;
+              letter-spacing: 0.15px;
+              &:first-child {
+                background: $light-gray;
+                min-width: 145px;
+                vertical-align: middle;
+              }
+              &:last-child {
+                border-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // :checked
+  input:checked {
+    + .tab-label {
+      &::after {
+        transform: rotate(180deg);
+      }
+    }
+    ~ .tab-content {
+      max-height: inherit;
+      height: auto;
+      padding: 0 16px 16px 16px;
+      font-size: 14px;
+    }
+  }
+}
+
+.radio-accordion{
+  .oz-radio{
+    margin: 16px 8px 16px 16px !important;
+  }
+  .tab-label{
+    padding: 0;
+    display: inline;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.oz-accordion-v2{
+  .tabs{
+    .tab{
+      margin-bottom: 0;
+      border-bottom: 0;
+      border-radius: 0;
+      &:first-child{
+        border-radius: 4px 4px 0 0;
+      }
+      &:last-child{
+        border-radius: 0 0 4px 4px;
+        border-bottom:1px solid #E0E0E0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .oz-accordion {
+    padding: 0;
+    border-top: 3px solid $primaryGreenSG300;
+    .tabs {
+      .tab {
+        border-radius: 0;
+        border-top: 0;
+        border-bottom: 3px solid $primaryGreenSG300;
+        margin: 0;
+        .tab-content {
+          ol {
+            li {
+              margin-bottom: 16px;
+              font-size: 14px;
+              letter-spacing: 0.15px;
+              line-height: 18.2px;
+              h4 {
+                margin-bottom: 4px;
+              }
+              p {
+                font-size: 13px;
+                letter-spacing: 0.01px;
+                line-height: 17px;
+              }
+            }
+          }
+          table {
+            font-size: 13px;
+            line-height: 17px;
+            tr td {
+              padding: 8px 16px;
+            }
+          }
+        }
+      }
+    }
+    .tab-label {
+      padding: 16px;
+      font-size: 14px;
+      letter-spacing: 0.15px;
+      line-height: 18.2px;
+    }
+  }
+}
